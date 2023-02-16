@@ -6,16 +6,16 @@ import Layout from '../../layouts/Layout.astro';
 
     <main class="flex flex-col items-center justify-center bg-[#E4E2D9] container">
         <section class="mt-5 ">
-            <div class="uppercase text-gray-800 font-medium mt-5 pl-5">
+            <div class="uppercase text-gray-800 font-medium mt-5 pl-5 ">
                 <h3 class="font-medium text-3xl tracking-wider ">chief</h3>
-                <p class="text-xs">phone and accessories</p>
+                <p class="text-[7px]">phone and accessories</p>
             </div>
             <div class="flex items-center justify-center mt-5 ">
 
                 <div class="flex items-center gap-5 translate-x-[3rem]">
                     <div>
                     <h3 class="text-xl tracking-wide font-medium uppercase">Gilbert Mosha</h3>
-                    <p class="uppercase">Sales man</p>
+                    <p class="uppercase text-center text-sm">Sales man</p>
                 </div>
                 </div>
     
@@ -28,8 +28,13 @@ import Layout from '../../layouts/Layout.astro';
 
             <div class="flex bg-white w-screen px-5 rounded-xl py-3">
                 <h3 class="text-xl font-light translate-x-[28px]">Contacts</h3>
-                <div class="flex items-center justify-between translate-x-[4rem] gap-5">
-
+                <div class="flex items-center justify-between translate-x-[4.5rem] gap-5">
+                    <a href="tel:+255715534997">
+                    
+                        <div class="w-[30px] h-[30px]">
+                         <img src="/phone.png" class="object-cover"/>
+                        </div>
+                    </a>
                     <a href="https://instagram.com/chief_phone_accessories?igshid=NDk5N2NlZjQ=">
                     
                         <div class="w-[30px] h-[30px]">
@@ -41,9 +46,12 @@ import Layout from '../../layouts/Layout.astro';
                      <img src="/whatsapp.png" class="object-cover"/>
                     </div>
                     </a>
-                    <div class="w-[30px] h-[30px]">
-                     <img src="/gmail.png" class="object-cover"/>
-                    </div>
+                    <a href="mailto:Gilbertjoseph03@gmail.com">
+
+                        <div class="w-[30px] h-[30px]">
+                         <img src="/gmail.png" class="object-cover"/>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -58,43 +66,78 @@ import Layout from '../../layouts/Layout.astro';
         <section>
             <h3 class="uppercase text-center mt-5 font-light tracking-wide text-xl">our Products</h3>
             <div class="grid grid-cols-3 gap-5 mt-5">
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+iphone">
                 
-                <div class="w-[100px] h-[140px] bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1509395286499-2d94a9e0c814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs ">Iphones</h3>
-                </div>
-                <div class="w-[100px] h-[140px] bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem] ">
-                    <img src="https://images.unsplash.com/photo-1672906674626-f58e6885f632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvbmUlMjBjb3ZlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs ">Phone Covers</h3>
-                </div>
-                <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FkZ2V0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs ">Gadgets</h3>
-                </div>
-                <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs ">Smart Watch</h3>
-                </div>
-                 <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGVhZHNldHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]"/>
-                    <h3 class="text-center mt-1 text-xs ">Headsets</h3>
-                </div>
-                 <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWlycG9kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs ">Airpods</h3>
-                </div>
-                <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1612241143917-d05c85c43751?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BlYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs">Speakers</h3>
-                </div>
-                <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1461141346587-763ab02bced9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwcGxlJTIwd2F0Y2hlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs ">Apple Watches</h3>
-                </div>
-                <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                    <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHBvd2VyJTIwYmFua3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                    <h3 class="text-center mt-1 text-xs">Power Banks</h3>
-                </div>
+                    <div class="w-[100px] h-[140px] bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                        <img src="https://images.unsplash.com/photo-1509395286499-2d94a9e0c814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Iphones</h3>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+PHONE-CASE">
+                
+                    <div class="w-[100px] h-[140px] bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem] ">
+                        <img src="https://images.unsplash.com/photo-1672906674626-f58e6885f632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvbmUlMjBjb3ZlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Phone Covers</h3>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+GADGETS">
+                
+                    <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                        <img src="https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FkZ2V0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Gadgets</h3>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+SMARTWATCH">
+                
+                    <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                        <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Smart Watch</h3>
+                    </div>
+                </a>
+                
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+HEADSETS">
+
+                    <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                       <img src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGVhZHNldHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]"/>
+                       <h3 class="text-center mt-1 text-xs ">Headsets</h3>
+                   </div>
+                </a>
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+AIRPODS">
+                
+                    <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                       <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWlycG9kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                       <h3 class="text-center mt-1 text-xs ">Airpods</h3>
+                   </div>
+                </a>
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+Speakers">
+                
+                    <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                        <img src="https://images.unsplash.com/photo-1612241143917-d05c85c43751?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BlYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs">Speakers</h3>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+APPLEWATCH">
+                
+                    <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                        <img src="https://images.unsplash.com/photo-1461141346587-763ab02bced9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwcGxlJTIwd2F0Y2hlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Apple Watches</h3>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+POWERBANKS">
+                
+                    <div class="w-[100px] h-[140px]  bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
+                        <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHBvd2VyJTIwYmFua3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs">Power Banks</h3>
+                    </div>
+                </a>
 
                
             </div>
@@ -102,24 +145,26 @@ import Layout from '../../layouts/Layout.astro';
 
         <!-- Footer -->
 
-        <section class="bg-white py-3 mt-[3rem] w-full flex  items-center gap-3 pl-5">
+        <section class="bg-white py-3 mt-[3rem] w-full flex  items-center gap-3 pl-5">        
+        <div class="bg-[#E4E2D9] rounded-full">
 
-            
-               
-
-                
-  <div class="bg-[#E4E2D9] rounded-full">
-
-      <img class="w-[90px] h-[90px] rounded-full" src="/gilbert.png" alt="Rounded avatar"/>
-  </div>
+            <img class="w-[90px] h-[90px] rounded-full object-cover" src="/gilbert.png" alt="Rounded avatar"/>
+        </div>
 
 
                 <div class="w-[250px]">
-                    <h3>Tupo RockCity Mall, 1st Floor, Mwanza Tanzania</h3>
-                    <p class="italic tracking-wide mt-3">Karibu Tukuhudumie</p>
+                    <h3>Tupo RockCity Mall, 1st Floor</h3>
+                    <p class="text-center">Mwanza Tanzania</p>
+                    <!-- <p class="italic tracking-wide mt-3">Karibu Tukuhudumie</p> -->
                 </div>
            
 
         </section>
+
+        <footer class="flex justify-between">
+            <div class="w-[300px]"></div>
+            
+            <img src="/logo.png" alt="logo" class="w-[150px] " width="150" />
+        </footer>
     </main>
 </Layout>
