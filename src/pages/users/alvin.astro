@@ -1,132 +1,201 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 ---
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-		<meta name="generator" content={Astro.generator} />
-		<!-- <title>{title}</title> -->
-	</head>
-	<body class="font-sans" >	
-        <main class="flex flex-col items-center justify-center text-white bg-[url('/images/darkGreen.png')] object-cover container">
-           <section class="mt-5 ">
-               <div>
-                   <img src="/images/alvin_logo.png" alt="logo" class="w-[150px]" />
-               </div>
 
-               <div class="text-center">
+<Layout title="Alvin Munisi">
+
+    <main class="flex flex-col items-center justify-center bg-[#E4E2D9] container">
+        <section class="mt-5 ">
+            <div>
+                <img src="/images/alvin_logo.png" alt="logo" class="w-[150px]" />
+            </div>
+            <div class="flex items-center justify-center mt-5 ">
+                 <div class="">
+                        <img src="/images/alvin.png" alt="profile" class="object-cover w-[217px] h-[209px]"/>
+                    </div>
+
+                <div class="flex items-center gap-5 -translate-x-[3rem]">
+                    <div>
+                    <h3 class="text-xl tracking-wide font-medium uppercase">alvin munisi</h3>
+                    <p class="uppercase text-center text-sm">manager</p>
+                </div>
+                </div>
+    
+                   
+            </div>
+            
 
 
-                   <h3 class=" text-2xl font-medium tracking-wide">Karibu Mosco Electronics</h3>
-                   <article class="mt-2 text-base">Wauzaji na Wasambazaji wa vifaa vya umeme mkoani Mwanza</article>
-               </div>
+            <div class="flex bg-white w-screen px-5 rounded-xl py-3">
+                <h3 class="text-xl font-light translate-x-[28px]">Contacts</h3>
+                <div class="flex items-center justify-between translate-x-[4.5rem] gap-5">
+                    <a href="tel:+255715534997">
+                    
+                        <div class="w-[30px] h-[30px]">
+                         <img src="/phone.png" class="object-cover"/>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/chief_phone_accessories?igshid=NDk5N2NlZjQ=">
+                    
+                        <div class="w-[30px] h-[30px]">
+                         <img src="/ig.png" class="object-cover"/>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/+255715534997">
+                     <div class="w-[35px] h-[35px]">
+                     <img src="/whatsapp.png" class="object-cover"/>
+                    </div>
+                    </a>
+                    <a href="mailto:Gilbertjoseph03@gmail.com">
 
+                        <div class="w-[30px] h-[30px]">
+                         <img src="/gmail.png" class="object-cover"/>
+                        </div>
+                    </a>
+                </div>
 
-               <div class="flex items-center justify-center mt-5">
-                <button class="px-4 py-2 rounded-md bg-pink-500 text-white font-medium shadow-md">Contacts</button>
-                <!-- <button>Contacts</button> -->
-               </div>
-               <div class="flex items-center justify-center mt-5 ">
-        
-                   <div class="flex items-center gap-5 translate-x-[3rem]">
-                       <div>
-                       <h3 class="text-xl tracking-wide font-medium uppercase">Alvin Mosco</h3>
-                       <p class="uppercase text-center text-sm">Manager</p>
-                   </div>
-                   </div>
-        
-                       <div class="">
-                           <img src="/gilbert.png" alt="profile" class="object-cover w-[217px] h-[209px]"/>
-                       </div>
-               </div>
+            </div>
+
+            <a class="flex  justify-center" href="/vcards/alvin.vcf" download>
+
+                <button class="px-3 py-2 rounded-md cursor-pointer  bg-white shadow-md mt-5">Save Contacts</button>
+            </a>
+        </section>
+
+        <!-- Products section -->
+        <section>
+            <h3 class="uppercase text-center mt-5 font-light tracking-wide text-xl">our Products</h3>
+            <div class="grid grid-cols-3 gap-5 mt-5">
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Televisions">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c21hcnQlMjB0dnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Televisions</h3>
+                    </div>
+                </a>
+                 
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Radio">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://images.unsplash.com/photo-1612241143917-d05c85c43751?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3BlYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Radios</h3>
+                    </div>
+                </a>
+
+                 <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Refrigirator">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/06292022/rf28r7551sr/RF28R7551SR_04_Silver_SCOM.jpg?$product-details-jpg$" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Refrigeration</h3>
+                    </div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Home-theater">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/81UTwdVe-0L._AC_SX466_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-[10px] ">Home Theater</h3>
+                    </div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Air-conditioning">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/519tzJi4egL._AC_SX679_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-[10px] ">Air Conditioning</h3>
+                    </div>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Generators">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/71Ts4D2TX3L._AC_SX679_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Generators</h3>
+                    </div>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Water-pumps">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/41dIXjODWmL._AC_SX466_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-xs ">Water Pumps</h3>
+                    </div>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Washing-machines">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/51WzV+-rXeL._AC_SY741_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-[10px] ">Wash Machines</h3>
+                    </div>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Kitchen-appliences">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/814bNOiLBmL._AC_SX679_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-[9.5px] ">kithen Appliance</h3>
+                    </div>
+                </a>
+
                
-        
-        
-               <div class="flex bg-white w-screen px-5 rounded-xl py-3">
-                   <h3 class="text-xl font-light translate-x-[28px]">Contacts</h3>
-                   <div class="flex items-center justify-between translate-x-[4.5rem] gap-5">
-                       <a href="tel:+255715534997">
-                       
-                           <div class="w-[30px] h-[30px]">
-                            <img src="/phone.png" class="object-cover"/>
-                           </div>
-                       </a>
-                       <a href="https://instagram.com/chief_phone_accessories?igshid=NDk5N2NlZjQ=">
-                       
-                           <div class="w-[30px] h-[30px]">
-                            <img src="/ig.png" class="object-cover"/>
-                           </div>
-                       </a>
-                       <a href="https://wa.me/+255715534997">
-                        <div class="w-[35px] h-[35px]">
-                        <img src="/whatsapp.png" class="object-cover"/>
-                       </div>
-                       </a>
-                       <a href="mailto:Gilbertjoseph03@gmail.com">
-        
-                           <div class="w-[30px] h-[30px]">
-                            <img src="/gmail.png" class="object-cover"/>
-                           </div>
-                       </a>
-                   </div>
-        
-               </div>
-        
-               <a class="flex  justify-center" href="/vcards/gili.vcf" download>
-        
-                   <button class="px-3 py-2 rounded-md cursor-pointer  bg-white shadow-md mt-5">Save Contacts</button>
-               </a>
-           </section>
-        
-           <!-- Products section -->
-           <section>
-               <h3 class="uppercase text-center mt-5 font-light tracking-wide text-xl">our Products</h3>
-               <div class="grid grid-cols-3 gap-5 mt-5">
-        
-                   <a href="https://wa.me/255715534997/?text=Habari%2C+Ninahitaji+iphone">
-                   
-                       <div class="w-[100px] h-[140px] bg-white p-3 rounded-tr-[1.4rem] rounded-bl-[1.4rem]">
-                           <img src="https://images.unsplash.com/photo-1509395286499-2d94a9e0c814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
-                           <h3 class="text-center mt-1 text-xs ">Iphones</h3>
-                       </div>
-                   </a>
-        
-                   
-        
-                   
-                  
-        
-                  
-               </div>
-           </section>
-        
-           <!-- Footer -->
-        
-           <section class="bg-white py-3 mt-[3rem] w-full flex  items-center gap-3 pl-5">        
-           <div class="bg-[#E4E2D9] rounded-full">
-        
-               <img class="w-[90px] h-[90px] rounded-full object-cover" src="/gilbert.png" alt="Rounded avatar"/>
-           </div>
-        
-        
-                   <div class="w-[250px]">
-                       <h3>Tupo RockCity Mall, 1st Floor</h3>
-                       <p class="text-center">Mwanza Tanzania</p>
-                       <!-- <p class="italic tracking-wide mt-3">Karibu Tukuhudumie</p> -->
-                   </div>
-              
-        
-           </section>
-        
-           <footer class="flex justify-between">
-               <div class="w-[300px]"></div>
+
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Appliances">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/71GFQfWO+DL._AC_SX679_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-[10px] ">Appliances</h3>
+                    </div>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Power%20protection-devices">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/71X279UTBHL._AC_SX679_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-[9px] ">Protection Device</h3>
+                    </div>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=+255629272013&text=Habari%20Mosco%20electronics%2C%20ninahitaji%20kununua%20Bidhaa zako">
+                
+                    <div class="w-[100px] h-[130px] bg-white p-3 rounded-md ">
+                        <img src="https://m.media-amazon.com/images/I/61E1h4TadxL._AC_SX679_.jpg" alt="Product" class="object-cover rounded-md   h-[90px] w-[80px]" width="200"/>
+                        <h3 class="text-center mt-1 text-[10px] ">Other Devices</h3>
+                    </div>
+                </a>
+
+            
+
                
-               <img src="/logo.png" alt="logo" class="w-[150px] " width="150" />
-           </footer>
-        </main>
-	</body>
-</html>
+               
+
+               
+               
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <section class="bg-white py-3 mt-[3rem] w-full flex  items-center gap-3 pl-5">        
+        <div class="bg-[#E4E2D9] rounded-full">
+
+            <img class="w-[90px] h-[90px] rounded-full object-cover" src="/images/alvin.png" alt="Rounded avatar"/>
+        </div>
+
+
+                <div class="w-[250px]">
+                    <h3>Tupo Rwagasore street.</h3>
+                    <p>Mwanza, Tanzania</p>
+                    
+                </div>
+           
+
+        </section>
+
+        <footer class="flex justify-between">
+            <div class="w-[300px]"></div>
+            
+            <img src="/logo.png" alt="logo" class="w-[150px] " width="120" />
+        </footer>
+    </main>
+</Layout>
