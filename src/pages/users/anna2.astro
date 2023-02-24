@@ -1,0 +1,147 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Anna Charles">
+  <main
+    class="flex flex-col items-center justify-center bg-[#f2f2f2] container"
+  >
+    <section class="mt-5">
+      <div>
+        <img src="/images/benapo_logo.png" alt="logo" class="w-[150px]" />
+      </div>
+      <div class="flex items-center justify-center mt-5">
+        <div class="flex items-center gap-5">
+          <div class="relative">
+            <h3
+              class="text-xl tracking-wide font-medium uppercase absolute top-0 w-[200px]"
+            >
+              Anna Charles
+            </h3>
+            <p class="text-lg absolute top-6 w-[200px]">Managing Director</p>
+          </div>
+        </div>
+
+        <div class="relative">
+          <img
+            src="/images/benapo.png"
+            alt="profile"
+            class="object-cover w-[317px] h-[209px] translate-y-[2.5rem]"
+          />
+        </div>
+      </div>
+
+      <div class="flex bg-[#304d44] px-5 rounded-sm py-3 shadow-lg w-screen">
+        <h3 class="text-xl font-light translate-x-[28px] text-white">
+          Contacts
+        </h3>
+        <div
+          class="flex items-center justify-between translate-x-[4.5rem] gap-5"
+        >
+          <a href="tel:+255757060566">
+            <div class="w-[30px] h-[30px]">
+              <img src="/phone.png" class="object-cover" />
+            </div>
+          </a>
+
+          <a
+            href="https://instagram.com/mashmata_inv.co.ltd?igshid=MjkzY2Y1YTY="
+          >
+            <div class="w-[30px] h-[30px]">
+              <img src="/ig.png" class="object-cover" />
+            </div>
+          </a>
+          <a href="https://wa.me/+255757060566">
+            <div class="w-[35px] h-[35px]">
+              <img src="/whatsapp.png" class="object-cover" />
+            </div>
+          </a>
+          <a href="mailto: benywillymashy11@gmail.com">
+            <div class="w-[30px] h-[30px]">
+              <img src="/gmail.png" class="object-cover" />
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <a class="flex justify-center" href="/vcards/benjamin.vcf" download>
+        <button
+          class="px-3 py-2 rounded-md cursor-pointer bg-[#304d44] shadow-xl mt-5 text-white"
+          >Save Contacts</button
+        >
+      </a>
+    </section>
+
+    <!-- Products section -->
+    <section>
+      <h3 class="uppercase text-center mt-5 font-light tracking-wide text-xl">
+        our Services
+      </h3>
+      <p class="text-center">
+        We do General Supplies & provide General Insurance Services
+      </p>
+      <div class="flex items-center justify-center mt-5 space-x-5">
+        <a href="">
+          <div
+            class="w-[150px] h-[150px] bg-[#4e6ba3] rounded-md flex flex-col items-center shadow-md"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1597328290883-50c5787b7c7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyJTIwY3Jhc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              alt="Product"
+              class="object-cover rounded-md w-[150px] h-[120px] aspect-square"
+              width="200"
+            />
+            <div>
+              <h3 class="text-center mt-1 text-[1rem] text-white">
+                Car Insurance
+              </h3>
+            </div>
+          </div>
+        </a>
+
+        <a href="">
+          <div
+            class="w-[150px] h-[150px] bg-[#4e6ba3] rounded-md flex flex-col items-center shadow-md"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxorgcvWRMIqg_ryteKmQwdTSu8t8XPj5HjA&usqp=CAU"
+              alt="Product"
+              class="object-cover rounded-md w-[150px] h-[120px] aspect-square"
+              width="200"
+            />
+            <div>
+              <h3 class="text-center mt-1 text-[1rem] text-white">
+                Moto Insurance
+              </h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section
+      class="bg-[#4e6ba3] py-3 mt-[3rem] w-full flex items-center gap-3 pl-5"
+    >
+      <div class="bg-[#E4E2D9] rounded-full">
+        <img
+          class="w-[100px] h-[100px] rounded-full object-cover"
+          src="/images/benapo.png"
+          alt="Rounded avatar"
+        />
+      </div>
+
+      <div class="w-[250px] text-white">
+        <h3>Rockcity Mall, 2nd Floor</h3>
+        <p class="">Mwanza, Tanzania</p>
+      </div>
+    </section>
+
+    <footer class="flex justify-between">
+      <div class="w-[300px]"></div>
+
+      <img src="/logo.png" alt="logo" class="w-[150px]" width="150" />
+    </footer>
+  </main>
+</Layout>
