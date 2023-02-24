@@ -1,0 +1,72 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Anna Mchacho">
+  <main class="font-sans pl-5 mt-[2rem]">
+    <section>
+      <div class="bg-[#E4E2D9] w-[130px] h-[130px] rounded-lg">
+        <img
+          class="w-[130px] h-[130px] rounded-lg object-cover"
+          src="/images/benjamin.png"
+          alt="Rounded avatar"
+        />
+      </div>
+      <h3 class="mt-3 text-3xl font-medium">Anna Mchacho.</h3>
+      <p class="mt-1 text-gray-800">
+        Creative Director at Mchacho Group of Companies. Just a Company
+        Description
+      </p>
+
+      <div class="mt-5 gap-5 flex">
+        <button class="p-3 rounded-md bg-blue-500 text-white font-medium"
+          >Save Contacts</button
+        >
+        <button class="py-3 px-4 rounded-md bg-[#E7E8E9]">Address</button>
+      </div>
+    </section>
+
+    <section class="mt-[2rem] flex flex-col gap-5">
+      <div
+        class="bg-[#ECDCF4] w-[300px] h-[200px] rounded-md shadow-md relative overflow-hidden"
+      >
+        <div class="pl-5 pt-3">
+          <h3 class="text-2xl font-medium tracking-wide text-gray-800">
+            Our Services
+          </h3>
+          <ul class="list-disc pl-5 text-gray-800 space-y-2 pt-3">
+            <li>Motor Insurance</li>
+            <li>Personal Insurance</li>
+            <li>Constractors All risks</li>
+            <li>Bonds</li>
+          </ul>
+          <div
+            class="absolute w-[90px] h-[90px] border-[2px] border-pink-500 bottom-0 right-0 rounded-full translate-x-[2rem] translate-y-5"
+          >
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[#F3ECDE] w-[300px] h-[170px] rounded-md relative overflow-hidden"
+      >
+        <div class="pl-5 pt-3">
+          <h3 class="text-2xl font-medium tracking-wide text-gray-800">
+            Visit Our Offices
+          </h3>
+          <p class="text-gray-800 mt-2">
+            Tunapatikana Mwanza Rockcity Mall, Third Floor
+          </p>
+        </div>
+        <div
+          class="absolute w-[90px] h-[90px] border-[2px] border-pink-500 bottom-0 left-0 rounded-full -translate-x-[2rem] translate-y-7"
+        >
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="flex justify-between">
+    <div class="w-[300px]"></div>
+
+    <img src="/logo.png" alt="logo" class="w-[150px]" width="150" />
+  </footer>
+</Layout>
