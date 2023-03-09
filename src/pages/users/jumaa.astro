@@ -41,73 +41,125 @@ import Layout from "../../layouts/Layout.astro";
         </p>
       </div>
 
-      <div class="flex bg-white px-5 rounded-sm py-3 shadow-lg w-screen">
-        <h3
-          class="text-lg font-light text-white bg-[#092958] px-4 py-2 rounded-md"
-        >
-          Save Contact
-        </h3>
-        <div class="flex items-center justify-between translate-x-[1rem] gap-5">
-          <a href="tel:+255764549335">
-            <div class="w-[30px] h-[30px]">
-              <img src="/phone.png" class="object-cover" />
-            </div>
-          </a>
-
-          <a
-            href="https://instagram.com/officialjessique_tz?igshid=NTdlMDg3MTY="
+      <section class="flex flex-col items-center justify-center">
+        <div class="flex bg-white px-5 rounded-sm py-3 shadow-lg w-screen">
+          <h3 class="font-light text-white bg-[#092958] px-4 py-2 rounded-md">
+            Save Contact
+          </h3>
+          <div
+            class="flex items-center justify-between translate-x-[1rem] gap-5"
           >
-            <div class="w-[30px] h-[30px]">
-              <img src="/ig.png" class="object-cover" />
-            </div>
-          </a>
-          <a href="https://wa.me/+255764549335">
-            <div class="w-[35px] h-[35px]">
-              <img src="/whatsapp.png" class="object-cover" />
-            </div>
-          </a>
-          <a href="#">
-            <div class="w-[30px] h-[30px]">
-              <img src="/gmail.png" class="object-cover" />
-            </div>
-          </a>
-        </div>
-      </div>
+            <a href="tel:+255764549335">
+              <div class="w-[30px] h-[30px]">
+                <img src="/phone.png" class="object-cover" />
+              </div>
+            </a>
 
+            <a
+              href="https://instagram.com/officialjessique_tz?igshid=NTdlMDg3MTY="
+            >
+              <div class="w-[30px] h-[30px]">
+                <img src="/ig.png" class="object-cover" />
+              </div>
+            </a>
+            <a href="https://wa.me/+255764549335">
+              <div class="w-[35px] h-[35px]">
+                <img src="/whatsapp.png" class="object-cover" />
+              </div>
+            </a>
+            <a href="#">
+              <div class="w-[30px] h-[30px]">
+                <img src="/gmail.png" class="object-cover" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
       <h3
         class="py-4 cursor-pointer bg-[#092958] shadow-xl text-white text-center uppercase tracking-wide"
       >
         biography
       </h3>
-    </section>
+      <section class="mt-[2rem] text-[#092958] space-y-5 px-3 text-justify">
+        <article>
+          Juma Hamidu Aweso is a prominent political leader in Tanzania,
+          currently serving as the Minister of Water and Irrigation in the sixth
+          phase government under the leadership of President Samia. He was born
+          on March 22, 1985, in Pangani, Tanga Region, Aweso pursued his
+          education at various institutions, including Mwambao Primary School,
+          Bagamoyo Secondary School, and Pugu Secondary School, where he
+          obtained a teaching diploma.
+        </article>
+        <article>
+          He later obtained a Bachelor of Science in Chemistry from the
+          University of Dar es Salaam in 2013 and a second degree in Governance
+          and Leadership from the Open University of Tanzania in 2020.
+        </article>
+        <article>
+          Aweso's political career began immediately after college, when he
+          joined the Chama cha Mapinduzi (CCM) party and was nominated to run
+          for Parliament in 2015, winning the election. He subsequently served
+          as Deputy Minister of Water and Irrigation in the fifth phase
+          government under Minister Makame Mbarawa before being appointed
+          Minister of Water and Irrigation in December 2020. Widely recognized
+          for his outstanding performance, Aweso has been given the title of
+          External Combatant by his fellow Members of Parliament for his
+          exceptional work in the ministry.
+        </article>
+      </section>
 
-    <section
-      class="mt-[2rem] flex flex-col items-center justify-center px-3 text-[#092958] space-y-5"
-    >
-      <article>
-        Juma Hamidu Aweso is a prominent political leader in Tanzania, currently
-        serving as the Minister of Water and Irrigation in the sixth phase
-        government under the leadership of President Samia. He was born on March
-        22, 1985, in Pangani, Tanga Region, Aweso pursued his education at
-        various institutions, including Mwambao Primary School, Bagamoyo
-        Secondary School, and Pugu Secondary School, where he obtained a
-        teaching diploma.
-      </article>
-      <article>
-        He later obtained a Bachelor of Science in Chemistry from the University
-        of Dar es Salaam in 2013 and a second degree in Governance and
-        Leadership from the Open University of Tanzania in 2020.
-      </article>
-      <article>
-        Aweso's political career began immediately after college, when he joined
-        the Chama cha Mapinduzi (CCM) party and was nominated to run for
-        Parliament in 2015, winning the election. He subsequently served as
-        Deputy Minister of Water and Irrigation in the fifth phase government
-        under Minister Makame Mbarawa before being appointed Minister of Water
-        and Irrigation in December 2020. Widely recognized for his outstanding
-        performance, Aweso has been given the title of External Combatant by his
-        fellow Members of Parliament for his exceptional work in the ministry.
-      </article>
+      <h3
+        class="py-4 cursor-pointer bg-[#092958] shadow-xl text-white text-center uppercase tracking-wide"
+      >
+        Highlights
+      </h3>
+
+      <section class="flex flex-col items-center space-y-5">
+        <div
+          class="w-[300px] h-full pb-5 rounded-md bg-[#092958] text-white mt-5"
+        >
+          <img
+            src="/images/juma1.jpeg"
+            class="w-[300px] pbject-cover rounded-t-md"
+          />
+          <h3 class="text-xl uppercase text-center mt-2">member of ccm</h3>
+          <article class="text-sm text-center mt-3 tracking-wide">
+            Juma Hamidu Aweso is a prominent political leader in Tanzania,
+            currently serving as the Minister of Water and Irrigation in the
+            sixth phase government under the leadership of President Samia.
+          </article>
+        </div>
+
+        <div class="w-[300px] h-full pb-5 rounded-md bg-[#092958] text-white">
+          <img
+            src="/images/juma2.jpeg"
+            class="w-[300px] pbject-cover rounded-t-md"
+          />
+          <h3 class="text-xl uppercase text-center mt-2">
+            pangani member of Parliament
+          </h3>
+          <article class="text-sm text-center mt-3 tracking-wide">
+            Juma Hamidu Aweso is a prominent political leader in Tanzania,
+            currently serving as the Minister of Water and Irrigation in the
+            sixth phase government under the leadership of President Samia.
+          </article>
+        </div>
+
+        <div class="w-[300px] h-full pb-5 rounded-md bg-[#092958] text-white">
+          <img
+            src="/images/juma3.jpeg"
+            class="w-[300px] pbject-cover rounded-t-md"
+          />
+          <h3 class="text-xl uppercase text-center mt-2">
+            2nd international maji conference
+          </h3>
+          <article class="text-sm text-center mt-3 tracking-wide">
+            Juma Hamidu Aweso is a prominent political leader in Tanzania,
+            currently serving as the Minister of Water and Irrigation in the
+            sixth phase government under the leadership of President Samia.
+          </article>
+        </div>
+      </section>
     </section>
 
     <!-- Footer -->
